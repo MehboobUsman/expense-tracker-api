@@ -137,11 +137,11 @@ http://localhost:3000/api-docs
 
 ### Expense Tracker
 
-![Expense Tracker](images/homepage.png)
+![Expense Tracker](Images/homepage.png)
 
 ### Swagger Documentation
 
-![Swagger Documentation](images/swagger.png)
+![Swagger Documentation](Images/swagger.png)
 
 ---
 
