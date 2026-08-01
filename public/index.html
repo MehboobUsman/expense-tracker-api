@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>💰 Smart Expense Tracker</h1>
+
+        <div class="card">
+
+            <h2>Add Expense</h2>
+
+            <form id="expenseForm">
+
+                <input
+                    type="text"
+                    id="title"
+                    placeholder="Item"
+                    required
+                >
+
+                <input
+                    type="number"
+                    id="amount"
+                    placeholder="Amount"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="category"
+                    placeholder="Category"
+                    required
+                >
+
+                <input
+                    type="date"
+                    id="date"
+                    required
+                >
+
+                <button type="submit">
+                    Add Expense
+                </button>
+
+            </form>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Total Expenses</h2>
+
+            <h3 id="totalAmount">₹0</h3>
+
+        </div>
+
+        <div class="card">
+
+            <h2>Expenses</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Item</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="expenseTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
