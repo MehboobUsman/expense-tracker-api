@@ -50,8 +50,13 @@ expense-tracker-api/
 │── server.js
 │── swagger.js
 │── package.json
+│── package-lock.json
 │── README.md
 │── AI_NOTES.md
+│
+├── Images/
+│   ├── HomePage.png
+│   └── Swagger.png
 │
 ├── public/
 │   ├── index.html
@@ -60,9 +65,9 @@ expense-tracker-api/
 │
 ├── src/
 │   ├── controllers/
-│   ├── routes/
-│   ├── models/
 │   ├── data/
+│   ├── models/
+│   ├── routes/
 │   └── utils/
 │
 └── tests/
